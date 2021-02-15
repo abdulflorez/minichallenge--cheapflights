@@ -14,7 +14,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://i.pinimg.com/564x/44/b0/af/44b0afc01661b81490f3c6ceddfdcc85.jpg");
+    background-image: url("/images/venecia.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
