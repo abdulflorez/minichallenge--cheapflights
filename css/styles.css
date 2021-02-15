@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.pinimg.com/564x/44/b0/af/44b0afc01661b81490f3c6ceddfdcc85.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+.form-container{
+    width: 800px;
+    height: 50px;
+    display: flex;
+    justify-content: stretch;
+    box-shadow: 0px 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.destination input{
+    width: 210px;
+    height: 100%;
+    border: 0.5px gray solid;
+    text-align: center;
+}
+
+.date-start{
+    background-color: white;
+    display: flex;
+}
+
+.date-start span{
+    width: 50px;
+    height: 100%;
+    border: 0.5px gray solid;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.date-start input{
+    width: 160px;
+    height: 100%;
+    border: 0.5px gray solid;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.date-end{
+    background-color: white;
+    display: flex;
+}
+
+.date-end span{
+    width: 50px;
+    height: 100%;
+    border: 0.5px gray solid;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.date-end input{
+    width: 160px;
+    height: 100%;
+    border: 0.5px gray solid;
+    font-family: sans-serif;
+    text-align: center;
+}
+.passengers input{
+    width: 100px;
+    height: 100%;
+    border: 0.5px gray solid;
+    text-align: center;
+}
+.button input{
+    width: 70px;
+    height: 100%;
+    border: 0.5px gray solid;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.button input:hover{
+    opacity: 1;
+    filter: 1;
+}
